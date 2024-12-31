@@ -1,7 +1,3 @@
-if (window.innerWidth <= 800) {
-  window.location.href = "https://www.example.com/?desktop=1";
-}
-
 // Create Initial References & declare variables
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
