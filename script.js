@@ -1,3 +1,7 @@
+if (window.innerWidth <= 800) {
+  window.location.href = "https://www.example.com/?desktop=1";
+}
+
 // Create Initial References & declare variables
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
@@ -116,7 +120,7 @@ Particle.prototype = {
 
 // Define the text and its properties
 let text = "~~~~~~~~~~~~~~~~~~~~~~~~\nThank you for making 2024\nthe best year of my life <3\nI can't wait to spend the many\n more years to come with you!\n - JZ x JY Jan.1.25\n~~~~~~~~~~~~~~~~~~~~~~~~";
-let fontSize = Math.floor(height * 0.05); // Font size is 10% of canvas height
+let fontSize = Math.floor(height * 0.03); // Font size is 10% of canvas height
 let font = `${fontSize}px Satisfy`; // Adjusted font size
 let textPositionX; // X position of the text (calculated dynamically)
 let textPositionY; // Y position of the text (calculated dynamically)
